@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/" name="github" review="github.com"/>
+  <default remote="github" revision="refs/heads/FRT-dev" sync-j="8"/>
+
+  <project name="FreeRTOS/FreeRTOS-Kernel.git" path="rtos" remote="github" revision="0adc196d4bd52a2d91102b525b0aafc1e14a2386" ></project>
+  <project name="ARM-software/CMSIS_6" path="cmsis_core" remote="github" revision="6f0a58d01aa9bd2feba212097f9afe7acd991d52" ></project>
+  <project name="STMicroelectronics/cmsis-device-f7" path="cmsis_f7" remote="github" revision="2352e888e821aa0f4fe549bd5ea81d29c67a3222" ></project>
+</manifest>
