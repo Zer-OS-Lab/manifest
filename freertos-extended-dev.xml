@@ -4,7 +4,7 @@
   <default remote="github" revision="refs/heads/main" sync-j="8"/>
 
   <project name="Zer-OS-Lab/build-gn" path="build" remote="github" revision="refs/heads/master">
-    <linkfile src="build/config/BUILDCONFIG.gn" dest="BUILDCONFIG.gn"/>
+    <linkfile src="config/BUILDCONFIG.gn" dest="BUILDCONFIG.gn"/>
   </project>
   <project name="Zer-OS-Lab/FreeRTOS-Kernel.git" path="rtos" remote="github" revision="refs/heads/main"></project>
   <project name="Zer-OS-Lab/CMSIS_6" path="cmsis_core" remote="github" revision="refs/heads/main"></project>
