@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="../../" name="github" review="github.com"/>
-  <default remote="github" revision="refs/heads/main" sync-j="8"/>
+  <default remote="github" revision="refs/heads/main" sync-j="8" sync-s="true"/>
 
-  <project name="Zer-OS-Lab/build-gn" path="build" remote="github" revision="refs/heads/master">
-    <linkfile src="config/BUILDCONFIG.gn" dest="BUILDCONFIG.gn"/>
-  </project>
-  <project name="Zer-OS-Lab/FreeRTOS-Kernel.git" path="rtos" remote="github" revision="refs/heads/main"></project>
-  <project name="Zer-OS-Lab/CMSIS_6" path="cmsis_core" remote="github" revision="refs/heads/main"></project>
-  <project name="Zer-OS-Lab/cmsis-device-f7" path="cmsis_f7" remote="github" revision="refs/heads/master"></project>
+  <project name="PoppingBoba/boong" path="build/boong" remote="github" revision="refs/heads/main"></project>
+  <project name="Zer-OS-Lab/FreeRTOS-Kernel.git" path="frt/rtos" remote="github" revision="refs/heads/main"></project>
+  <project name="Zer-OS-Lab/CMSIS_6" path="frt/cmsis_core" remote="github" revision="refs/heads/main"></project>
+  <project name="Zer-OS-Lab/cmsis-device-f7" path="frt/cmsis_f7" remote="github" revision="refs/heads/master"></project>
 </manifest>
